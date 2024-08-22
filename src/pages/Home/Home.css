@@ -1,0 +1,54 @@
+.Logo {
+    text-align: center;
+    
+}
+
+.clientLogo{
+    border-radius: 50%;
+}
+
+.Title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4B4A4A;
+}
+
+.subTitle {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: #4B4A4A;
+}
+
+.searchDiv{
+    text-align: center;
+}
+
+.searchBar{
+    width: 80vw;  
+}
+
+.CatTitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4B4A4A;
+}
+
+.cardCat{
+    background-color: #fff;
+}
+
+.cardTitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #4B4A4A;
+}
+
+.cardContent{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #4B4A4A;
+}
