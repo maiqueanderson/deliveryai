@@ -2,6 +2,9 @@ import { Container } from "react-bootstrap";
 import Logo from '../../assets/LOGO.png';
 import './Home.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPizzaSlice, faBowlFood, faBurger, faWineGlass, faCake } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Home() {
   return (
@@ -27,26 +30,23 @@ export default function Home() {
       <h2 className="my-3 CatTitle">Categorias</h2>
 
       <div className="grid grid-cols-4 gap-4 mt-2">
-        <button className="bg-secondary text-secondary-foreground p-2 m-2 rounded">
-          <img src="https://openui.fly.dev/openui/24x24.svg?text=🍜" alt="Yakosoba" />
-          Yakosoba
+        
+        <button className="catButton p-2 m-2 rounded">
+        <FontAwesomeIcon   icon={faBowlFood} alt='Yaksoba' /> Yakosoba
         </button>
-        <button className="bg-secondary text-secondary-foreground p-2 m-2 rounded">
-          <img src="https://openui.fly.dev/openui/24x24.svg?text=🍔" alt="Hamburger" />
-          Hamburger
+        <button className="catButton p-2 m-2 rounded">
+        <FontAwesomeIcon   icon={faBurger} alt='Yaksoba' /> Hamburger
         </button>
-        <button className="bg-secondary text-secondary-foreground p-2 m-2 rounded">
-          <img src="https://openui.fly.dev/openui/24x24.svg?text=🍕" alt="Pizzas" />
-          Pizzas
+        <button className="catButton p-2 m-2 rounded">
+        <FontAwesomeIcon   icon={faPizzaSlice} alt='Yaksoba' /> Pizzas
         </button>
-        <button className="bg-secondary text-secondary-foreground p-2 m-2 rounded">
-          <img src="https://openui.fly.dev/openui/24x24.svg?text=🍺" alt="Bebidas" />
-          Bebidas
+        <button className="catButton p-2 m-2 rounded">
+        <FontAwesomeIcon   icon={faWineGlass} alt='Yaksoba' /> Bebidas
         </button>
-        <button className="bg-secondary text-secondary-foreground p-2 m-2 rounded">
-          <img src="https://openui.fly.dev/openui/24x24.svg?text=🍰" alt="Tortas" />
-          Tortas
+        <button className="catButton p-2 m-2 rounded">
+        <FontAwesomeIcon   icon={faCake} alt='Yaksoba' /> Tortas
         </button>
+        
       </div>
 
       {/* TELA ONDE O USUARIO ESCOLHEU A CATEGORIA */}

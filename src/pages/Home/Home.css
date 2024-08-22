@@ -27,7 +27,7 @@
 }
 
 .searchBar{
-    width: 80vw;  
+    width: 100%;
 }
 
 .CatTitle{
@@ -51,4 +51,15 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #4B4A4A;
+}
+
+.catButton{
+    background-color: #fff;
+    color: #4B4A4A;
+}
+
+.catButton:hover{
+    background-color: #2B539F;
+    color: #fff;
+    
 }
