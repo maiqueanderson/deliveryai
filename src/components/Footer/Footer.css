@@ -1,0 +1,43 @@
+.footer{
+    
+    background-color: white; ;
+    text-align: center;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    
+}
+
+.mais{
+    background-color: #408558;
+    border-radius: 30px;
+    color: white;
+    font-size: 30px;
+    margin-top: -8px;
+    
+}
+
+.textMais{
+    text-decoration: none;
+    color: white;
+}
+
+.textMais:focus{
+    text-decoration: none;
+    color: white;
+}
+
+.navFooter{
+    padding: 20px 0
+}
+
+.iconF{
+    height: 22px;
+}
+
+.colorActive{
+    color: #606060;
+    
+}
