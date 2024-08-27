@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { Container } from "react-bootstrap";
+import {  Container } from "react-bootstrap";
 import Logo from '../../assets/LOGO.png';
 import './Home.css';
 import Footer from "../../components/Footer/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPizzaSlice, faBowlFood, faBurger, faWineGlass, faCake } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState('Pizzas');
@@ -82,12 +83,15 @@ export default function Home() {
           <div>
             <h2 className="my-4 CatTitle">Pizzas Salgadas</h2>
             <div className="space-y-2">
+
               {/* Conteúdo de Pizzas Salgadas */}
+              <Link className="LinkText" to='/Sabores'>
               <div className="p-4 my-3 border border-border rounded cardCat">
                 <h3 className="cardTitle">Família</h3>
                 <p className="cardContent">Pizza com até 3 sabores e 12 fatias</p>
                 <p className="cardTitle">A partir de R$ 60,99</p>
               </div>
+              </Link>
               <div className="p-4 my-3 border border-border rounded cardCat">
                 <h3 className="cardTitle">Grande</h3>
                 <p className="cardContent">Pizza com até 2 sabores e 8 fatias</p>
@@ -157,7 +161,7 @@ export default function Home() {
   return (
     <>
       <Container className="pb-5 mb-5">
-        <div className="">
+        
           <header className="my-4 Logo">
             <img src={Logo} height={100} alt="Pizza Delivery Logo" className="h-12 clientLogo" />
           </header>
@@ -190,7 +194,7 @@ export default function Home() {
 
           {/* Renderiza o conteúdo da categoria selecionada */}
           {renderCategoryContent()}
-        </div>
+        
       </Container>
       <Footer />
     </>

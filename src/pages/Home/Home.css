@@ -39,12 +39,20 @@
 
 .cardCat{
     background-color: #fff;
+    
+    
+}
+
+.cardCat:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 500ms;
 }
 
 .cardTitle{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: #4B4A4A;
+    
 }
 
 .cardContent{
@@ -61,5 +69,34 @@
 .catButton:hover{
     background-color: #2B539F;
     color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 500ms;
     
+}
+
+.catButton:focus{
+    background-color: #2B539F;
+    color: #fff;
+    
+}
+
+.subCat{
+    border: none;
+    background-color: #F6F6F6;
+}
+
+.subCat:hover{
+    border: none;
+    background-color: #F6F6F6;
+    color: #2B539F;
+}
+
+.subCat:focus{
+    border: none;
+    background-color: #F6F6F6;
+    color: #2B539F;
+}
+
+.LinkText{
+    text-decoration: none;
 }
