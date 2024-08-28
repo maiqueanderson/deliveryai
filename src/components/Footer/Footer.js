@@ -27,19 +27,19 @@ const Footer = () =>{
                             </Link>
                         </Col>
                         <Col>
-                            <Link to='/Home'>
-                                <FontAwesomeIcon className={`iconF ${currentPage === '/Historico' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faClipboard} />
+                            <Link to='/Status'>
+                                <FontAwesomeIcon className={`iconF ${currentPage === '/Status' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faClipboard} />
                             </Link>
                         </Col>
                      
                         <Col>
-                            <Link to='/Home'>
-                                <FontAwesomeIcon className={`iconF ${currentPage === '/Graficos' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faCartShopping} />
+                            <Link to='/Cart'>
+                                <FontAwesomeIcon className={`iconF ${currentPage === '/Cart' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faCartShopping} />
                             </Link>
                         </Col>
                         <Col>
-                            <Link to='/Home'>
-                                <FontAwesomeIcon className={`iconF ${currentPage === '/GerenciarFaturas' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faUser} />    
+                            <Link to='/Profile'>
+                                <FontAwesomeIcon className={`iconF ${currentPage === '/Profile' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faUser} />    
                             </Link>
                         </Col>
                     </Row>

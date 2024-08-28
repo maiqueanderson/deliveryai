@@ -71,3 +71,18 @@
     font-size: 25px;
     color: #4B4A4A;
 }
+
+.backButton{
+    background-color: #fff;
+    border-radius: 30%;
+    color: #4B4A4A;
+    font-size: 20px;
+   
+}
+
+.backButton:hover{
+   background-color: #2B539F;
+   color: #fff;
+   transition: 500ms;
+   
+}
