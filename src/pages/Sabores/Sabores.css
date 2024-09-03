@@ -12,14 +12,14 @@
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .subTitle {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: 400;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .cardSabor{
@@ -54,7 +54,7 @@
 }
 
 .saborButton{
-    background-color: #2B539F;
+    background-color: var(--primary-color);
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -69,19 +69,19 @@
 
     font-weight: 700;
     font-size: 25px;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .backButton{
     background-color: #fff;
     border-radius: 30%;
-    color: #4B4A4A;
+    color: var(--secondary-color);
     font-size: 20px;
    
 }
 
 .backButton:hover{
-   background-color: #2B539F;
+   background-color: var(--primary-color);
    color: #fff;
    transition: 500ms;
    

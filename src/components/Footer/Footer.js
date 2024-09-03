@@ -23,23 +23,23 @@ const Footer = () =>{
                     <Row>
                         <Col>
                             <Link to='/Home'>
-                                <FontAwesomeIcon className={`iconF ${currentPage === '/Home' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faHouse} />
+                                <FontAwesomeIcon className={`iconF ${currentPage === '/Home' ? 'active' : 'colorActive'}`} color='var(--primary-color)' icon={faHouse} />
                             </Link>
                         </Col>
                         <Col>
                             <Link to='/Status'>
-                                <FontAwesomeIcon className={`iconF ${currentPage === '/Status' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faClipboard} />
+                                <FontAwesomeIcon className={`iconF ${currentPage === '/Status' ? 'active' : 'colorActive'}`} color='var(--primary-color)'  icon={faClipboard} />
                             </Link>
                         </Col>
                      
                         <Col>
                             <Link to='/Cart'>
-                                <FontAwesomeIcon className={`iconF ${currentPage === '/Cart' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faCartShopping} />
+                                <FontAwesomeIcon className={`iconF ${currentPage === '/Cart' ? 'active' : 'colorActive'}`} color='var(--primary-color)'  icon={faCartShopping} />
                             </Link>
                         </Col>
                         <Col>
                             <Link to='/Profile'>
-                                <FontAwesomeIcon className={`iconF ${currentPage === '/Profile' ? 'active' : 'colorActive'}`} color='#2B539F' icon={faUser} />    
+                                <FontAwesomeIcon className={`iconF ${currentPage === '/Profile' ? 'active' : 'colorActive'}`} color='var(--primary-color)'  icon={faUser} />    
                             </Link>
                         </Col>
                     </Row>

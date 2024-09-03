@@ -16,7 +16,7 @@
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .cardSobre{
@@ -40,12 +40,12 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .cardSubTitleSobre2{
     font-family: "Roboto", sans-serif;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .cardSubTitleSobre2 span{

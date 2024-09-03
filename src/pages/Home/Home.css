@@ -12,14 +12,14 @@
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .subTitle {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: 400;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .searchDiv{
@@ -34,7 +34,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .cardCat{
@@ -51,23 +51,23 @@
 .cardTitle{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    color: #4B4A4A;
+    color: var(--secondary-color);
     
 }
 
 .cardContent{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .catButton{
     background-color: #fff;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }
 
 .catButton:hover{
-    background-color: #2B539F;
+    background-color: var(--primary-color);
     color: #fff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transition: 500ms;
@@ -75,7 +75,7 @@
 }
 
 .catButton:focus{
-    background-color: #2B539F;
+    background-color: var(--primary-color);
     color: #fff;
     
 }
@@ -88,13 +88,13 @@
 .subCat:hover{
     border: none;
     background-color: #F6F6F6;
-    color: #2B539F;
+    color: var(--primary-color);
 }
 
 .subCat:focus{
     border: none;
     background-color: #F6F6F6;
-    color: #2B539F;
+    color: var(--primary-color);
 }
 
 .LinkText{

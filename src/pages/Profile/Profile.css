@@ -1,4 +1,4 @@
 .profileText{
     font-family: "Roboto", sans-serif;
-    color: #4B4A4A;
+    color: var(--secondary-color);
 }

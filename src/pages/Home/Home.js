@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPizzaSlice, faBowlFood, faBurger, faWineGlass, faCake } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import Banner from "../../components/Banner/Banner";
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState('Pizzas');
@@ -172,6 +173,8 @@ export default function Home() {
           <div className="mt-4 searchDiv">
             <input type="text" placeholder="Pesquisar" className=" searchBar p-2 my-3 border border-border rounded" />
           </div>
+
+          <Banner/>
 
           <h2 className="my-3 CatTitle">Categorias</h2>
           <div className="grid grid-cols-4 gap-4 mt-2">

@@ -30,6 +30,6 @@
 }
 
 .colorActive{
-    color: #606060;
+    color: var(--secondary-color);
     
 }
