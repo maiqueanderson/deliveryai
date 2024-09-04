@@ -1,0 +1,24 @@
+.ButtonForm{
+    width: 100%;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.ButtonForm:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.criarConta{
+    text-align: center;
+}
+
+.criarConta span{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.criarConta p{
+    font-weight: 300;
+    
+}

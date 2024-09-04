@@ -9,6 +9,7 @@ import Sobre from './pages/Sobre/Sobre'
 import Cart from './pages/Cart/Cart'
 import Status from "./pages/Status/Status";
 import Profile from "./pages/Profile/Profile";
+import Login from "./auth/Login/Login";
 
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
       <Router>
         {/* <Navigation /> */}
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<Login />} />
           <Route path='/Home' element={<Home />} />
           <Route path='/Sabores' element={<Sabores />} />
           <Route path='/Sobre' element={<Sobre />} />
