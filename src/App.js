@@ -10,6 +10,8 @@ import Cart from './pages/Cart/Cart'
 import Status from "./pages/Status/Status";
 import Profile from "./pages/Profile/Profile";
 import Login from "./auth/Login/Login";
+import Admin from "./pages/Admin/Admin";
+import Dashboard from "./pages/Admin/Dashboard/Dashboard";
 
 
 const App = () => {
@@ -25,6 +27,8 @@ const App = () => {
           <Route path='/Cart' element={<Cart />} />
           <Route path='/Status' element={<Status />} />
           <Route path='/Profile' element={<Profile />} />
+          <Route path='/Admin' element={<Admin />} />
+          <Route path='/Dashboard' element={<Dashboard />} />
          
         </Routes>
       </Router>

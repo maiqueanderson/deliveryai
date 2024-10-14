@@ -1,0 +1,5 @@
+/* Classe com maior especificidade */
+.navbardash {
+    color: white !important; /* Força a cor branca */
+    font-size: 1.5rem; /* Tamanho da fonte opcional */
+}
