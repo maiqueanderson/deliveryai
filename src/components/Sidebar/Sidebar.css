@@ -11,6 +11,20 @@
     transition: transform 0.3s ease;
 }
 
+.sidebar h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebarLink{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+}
+
+.sidebarLink:hover{
+    color: rgb(126, 126, 126);
+}
+
 .sidebar.hidden {
     transform: translateX(-100%);
 }

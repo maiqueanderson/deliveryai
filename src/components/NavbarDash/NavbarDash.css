@@ -1,5 +1,15 @@
-/* Classe com maior especificidade */
+
 .navbardash {
-    color: white !important; /* Força a cor branca */
-    font-size: 1.5rem; /* Tamanho da fonte opcional */
+    color: white !important; 
+    font-size: 1.5rem;
+}
+
+.navButton{
+    color: white;
+    background-color: #28292E;
+    border-radius: 10px;
+}
+
+.userButton{
+    margin: 0 10px;
 }
