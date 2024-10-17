@@ -9,3 +9,14 @@
 body {
   background-color: #F6F6F6;
 }
+
+/* Garante que não haverá rolagem lateral */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Opcional: Garante que o conteúdo do Dashboard também não cause rolagem horizontal */
+.dashboard-container {
+  width: 100%;
+  overflow-x: hidden;
+}

@@ -27,3 +27,19 @@
     cursor: pointer;
     font-size: 20px;
 }
+
+.LinkDash{
+    color: white;
+}
+
+.LinkDash:hover{
+    color: white;
+}
+
+.pedidos{
+    font-weight: 700;
+}
+
+.chev{
+    padding-left: 180px;
+}
