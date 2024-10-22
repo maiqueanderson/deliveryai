@@ -12,6 +12,9 @@ import Profile from "./pages/Profile/Profile";
 import Login from "./auth/Login/Login";
 import Admin from "./pages/Admin/Admin";
 import Dashboard from "./pages/Admin/Dashboard/Dashboard";
+import CardapioAdd from "./pages/Admin/Cardapio/CardapioAdd";
+import CardapioRemove from "./pages/Admin/Cardapio/CardapioRemove";
+import CardapioAlterar from "./pages/Admin/Cardapio/CardapioAlterar";
 
 
 const App = () => {
@@ -29,6 +32,9 @@ const App = () => {
           <Route path='/Profile' element={<Profile />} />
           <Route path='/Admin' element={<Admin />} />
           <Route path='/Dashboard' element={<Dashboard />} />
+          <Route path='/CardapioAdd' element={<CardapioAdd />} />
+          <Route path='/CardapioRemove' element={<CardapioRemove />} />
+          <Route path='/CardapioAlterar' element={<CardapioAlterar />} />
          
         </Routes>
       </Router>

@@ -34,7 +34,7 @@ const Sidebar = ({ children }) => {
                     <div className="sidebar ">
 
                         <h6>Inicial</h6>
-                        <Link className='sidebarLink'>
+                        <Link to='/Dashboard' className='sidebarLink'>
                             <p>Dashboard</p>
                         </Link>
                         <Link className='sidebarLink'>
@@ -42,13 +42,13 @@ const Sidebar = ({ children }) => {
                         </Link>
 
                         <h6>Cardápio</h6>
-                        <Link className='sidebarLink'>
+                        <Link to="/CardapioAdd" className='sidebarLink'>
                             <p>Adicionar Item</p>
                         </Link>
-                        <Link className='sidebarLink'>
+                        <Link to="/CardapioRemove" className='sidebarLink'>
                             <p>Remover Item</p>
                         </Link>
-                        <Link className='sidebarLink'>
+                        <Link to='/CardapioAlterar' className='sidebarLink'>
                             <p>Alterar Item</p>
                         </Link>
 
